@@ -1,0 +1,73 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : May 16, 2025, 11:04:20 AM
+    Author     : ADMIN
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    font-family: sans-serif;
+    margin-left:10px ; 
+}
+.login-info{
+    font-family: inherit;
+    background-color:lightgray ;
+    width: 50%;
+}
+.inpit-info{
+    background-color: whitesmoke;
+    text-align: left ;
+    
+    input{
+        width: 150px;
+    }
+    #textbox{
+        margin-left: 15px;
+    }
+}
+.status-box{
+    display: flex;
+    padding: 5px;
+    width: 100px;
+    flex-direction: row;
+    input{
+        margin-left:10px;
+    }
+}
+
+.combobox-status{
+    display: flex;
+    padding: 2px;
+    height: 20px;
+    select{
+        margin-left: 15px;
+        width: 130px;
+    }
+}
+.mul-status{
+    display: flex;
+    padding: 5px;
+    select{
+        margin-left: 15px;
+        align-content:center;
+        width: 130px;
+    }
+}
+.text-status{
+    display: flex;
+    textarea{
+        margin-left: 12px;
+        text-align: start;
+        width: 150px;
+    }
+}
+
